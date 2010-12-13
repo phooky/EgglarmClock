@@ -41,6 +41,14 @@ $INSUNITS
  70
 1
   9
+$DIMSTYLE
+  2
+Standard
+  9
+$CLAYER
+  8
+0
+  9
 $DIMEXO
  40
 0.025
@@ -51,7 +59,7 @@ $DIMTXT
   9
 $CLAYER
   8
-0
+trigger
   0
 ENDSEC
   0
@@ -903,7 +911,7 @@ LAYER
 100
 AcDbSymbolTable
  70
-2
+3
   0
 LAYER
   5
@@ -936,6 +944,28 @@ AcDbSymbolTableRecord
 AcDbLayerTableRecord
   2
 cut
+ 70
+0
+ 62
+7
+420
+0
+  6
+CONTINUOUS
+370
+0
+390
+F
+  0
+LAYER
+  5
+44
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+trigger
  70
 0
  62
@@ -1155,7 +1185,7 @@ AcDbBlockTableRecord
   0
 BLOCK_RECORD
   5
-44
+45
 100
 AcDbSymbolTableRecord
 100
@@ -1281,7 +1311,7 @@ AcDbBlockEnd
   0
 BLOCK
   5
-45
+46
 100
 AcDbEntity
   8
@@ -1305,7 +1335,7 @@ gm3-shaft
   0
 ARC
   5
-46
+47
 100
 AcDbEntity
   8
@@ -1335,7 +1365,7 @@ AcDbArc
   0
 ARC
   5
-47
+48
 100
 AcDbEntity
   8
@@ -1365,7 +1395,7 @@ AcDbArc
   0
 LINE
   5
-48
+49
 100
 AcDbEntity
 100
@@ -1393,7 +1423,7 @@ ByLayer
   0
 LINE
   5
-49
+4A
 100
 AcDbEntity
 100
@@ -1421,7 +1451,7 @@ ByLayer
   0
 ENDBLK
   5
-4A
+4B
 100
 AcDbEntity
   8
@@ -1437,7 +1467,7 @@ ENTITIES
   0
 CIRCLE
   5
-4B
+4C
 100
 AcDbEntity
 100
@@ -1461,7 +1491,7 @@ ByLayer
   0
 CIRCLE
   5
-4C
+4D
 100
 AcDbEntity
 100
@@ -1485,7 +1515,7 @@ ByLayer
   0
 INSERT
   5
-4D
+4E
 100
 AcDbEntity
 100
@@ -1513,7 +1543,7 @@ gm3-shaft
   0
 INSERT
   5
-4E
+4F
 100
 AcDbEntity
 100
@@ -1538,6 +1568,94 @@ gm3-shaft
 1.0
  45
 1.0
+  0
+INSERT
+  5
+50
+100
+AcDbEntity
+100
+AcDbBlockReference
+  8
+trigger
+ 62
+256
+370
+-1
+  6
+ByLayer
+  2
+gm3-shaft
+ 10
+0.0
+ 20
+-40.0
+ 30
+0.0
+ 44
+1.0
+ 45
+1.0
+  0
+ARC
+  5
+51
+100
+AcDbEntity
+  8
+trigger
+ 62
+256
+370
+-1
+  6
+ByLayer
+100
+AcDbCircle
+ 10
+13.0
+ 20
+-40.0
+ 30
+0.0
+ 40
+3.0
+100
+AcDbArc
+ 50
+283.3423637970882396
+ 51
+76.6576362029117604
+  0
+ARC
+  5
+52
+100
+AcDbEntity
+  8
+trigger
+ 62
+256
+370
+-1
+  6
+ByLayer
+100
+AcDbCircle
+ 10
+0.0
+ 20
+-40.0
+ 30
+0.0
+ 40
+14.0
+100
+AcDbArc
+ 50
+12.034569728064044
+ 51
+347.9654302719359862
   0
 ENDSEC
   0
@@ -1577,7 +1695,7 @@ E
   3
 AcDbVariableDictionary
 350
-4F
+53
   0
 DICTIONARY
   5
@@ -2041,7 +2159,7 @@ Layout2
   0
 DICTIONARY
   5
-4F
+53
 100
 AcDbDictionary
 281
@@ -2049,15 +2167,15 @@ AcDbDictionary
   3
 DIMASSOC
 350
-51
+55
   3
 HIDETEXT
 350
-50
+54
   0
 DICTIONARYVAR
   5
-50
+54
 100
 DictionaryVariables
 280
@@ -2067,7 +2185,7 @@ DictionaryVariables
   0
 DICTIONARYVAR
   5
-51
+55
 100
 DictionaryVariables
 280
